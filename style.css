@@ -1,0 +1,97 @@
+@font-face {
+    font-family: gucci;
+    src: url(./GucciSansPro-Medium.40f2ffbe.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+#nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+   /* align-items: center;*/
+    justify-content: end;
+    gap: 20px;
+    position: sticky;
+    z-index:9;
+
+}
+#nav svg{
+    fill: black;
+    scale: 1.4;
+    padding: 60px 100px;
+}
+#nav h4{
+   visibility: hidden;
+    text-decoration: underline;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-family: gilroy;
+    font-weight: 400;
+}
+#nav i{
+    font-size: 20px;
+    
+}
+#notify{
+    height: 8vh;
+    width: 100%;
+    background-color: #DADADA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: gilroy;
+}
+#notify h6{
+    font-weight: 500;
+}
+ #page1-img{
+    height: 150vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url(https://media.gucci.com/dynamic/b3c8/hj0zGAzYfmKA5b+KMGgjOzBOqftbqLgl3Ikj+op4yC3i8u28c5adixKclXHOawWXzHh019bgDQKmIqHq8GLu9tU6Qdj3+FaNqIE+9_41B+ymtpnzVeT_W86nlHzroDCMpXQIt4CQC2Dh_wrhugRt+IpFEnyeF4I5uCN97mYf0FZp0t1OwTX_3ZvCYc1FeVybpdAHsyQPRuuwJpED4qjr8_PYunOtb3sUW9bNenkpWaZMBQSx5895Mx_zO3APDzXlpn1lqExvGIqBICl1Z3+hIeL4NYUX63pjRKLWlsfRSTk=/Gucci_Desktop_Routing_2UP_GQJannik-2-July23_3x4.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+#btntitle{
+    height: 15vh;
+    width: 35vw;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#btntitle button{
+    padding: 10px 12px;
+    font-size: 12px;
+    font-family: gilroy;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+}
+#btntitle h2{
+    font-family: gucci;
+    font-size: 6vh;
+    color: #fff;
+    font-weight: 500;
+}
